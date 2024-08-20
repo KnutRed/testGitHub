@@ -1,3 +1,24 @@
+<script>
+    const quotes = document.querySelectorAll('quote');
+    quotes.forEach(quote => {
+        quote.style.color = 'green';
+    });
+
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.style.color = 'yellow';
+    });
+
+    const codes = document.querySelectorAll('code');
+    codes.forEach(code => {
+        code.style.color = 'purple';
+    });
+
+    const buttons = document.querySelectorAll('button');
+    buttons.forEach(button => {
+        button.style.color = 'orange';
+    });
+</script>
 <h1>Hello World</h1>
 <p>This is a text</p>
 <quote>Some quote</quote>
@@ -8,3 +29,23 @@
     some code
 </code>
 <button>Click me</button>
+<style>
+    h1 {
+        color: red;
+    }
+    p {
+        color: blue;
+    }
+    quote {
+        color: green;
+    }
+    section {
+        color: yellow;
+    }
+    code {
+        color: purple;
+    }
+    button {
+        color: orange;
+    }
+</style>
