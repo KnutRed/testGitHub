@@ -1,22 +1,14 @@
 <script>
-    const quotes = document.querySelectorAll('quote');
-    quotes.forEach(quote => {
-        quote.style.color = 'green';
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('button').addEventListener('click', function() {
+            alert('Hello World');
+        });
     });
-
-    const sections = document.querySelectorAll('section');
-    sections.forEach(section => {
-        section.style.color = 'yellow';
-    });
-
-    const codes = document.querySelectorAll('code');
-    codes.forEach(code => {
-        code.style.color = 'purple';
-    });
-
-    const buttons = document.querySelectorAll('button');
-    buttons.forEach(button => {
-        button.style.color = 'orange';
+    // i want the button to change the colour of h1 to green
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('button').addEventListener('click', function() {
+            document.querySelector('h1').style.color = 'green';
+        });
     });
 </script>
 <h1>Hello World</h1>
